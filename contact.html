@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bailu Qian | Web Developer</title>
+		<link rel="icon" href="img/favicon/favicon.ico" type="image/png">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&family=Nerko+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.production.css">
+		<script src="js/tota11y.min.js"></script>
+	</head>
+	
+	<body>
+		<header class="page-header">
+			<img src="img/logo.svg" type="image/svg" class="logo page-header__item" alt="personal logo, text logo in uppercase consisting of initials">
+			<nav class="main-nav page-header__item">
+				<ul role="menubar" class="nav-list">
+					<li role="presentation">
+						<a href="index.html" role="menuitem" class="nav-list__item">Home</a>
+					</li>
+					<li role="presentation">
+						<a href="about.html" role="menuitem" class="nav-list__item">About Me</a>
+					</li>
+					<li role="presentation">
+						<a href="work.html" role="menuitem" class="nav-list__item">Work</a>
+					</li>
+					<li role="presentation">
+						<a href="contact.html" role="menuitem" class="nav-list__item nav-list__item--active">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<h1 class="contact-header">Contact Me</h1>
+		<main class="contact-page">
+			<section class="contact-info">
+				Bailu Qian<br>
+				1234 Street Name <br>
+				Houston, TX Zip## <br>
+				U.S.A
+				<br>
+				<br>
+				<a href="tel:1234567890">Mobile#: (123) 456-7890</a><br>
+				Skype <a href="skype:skypeid">Skype ID</a><br>
+				Email <a href="email">Email.com</a>
+			</section>
+	
+			<section class="contact-form">
+				<form action="" method="post" id="contact-form">
+					<label for="contact-email" class="standard-label">Email:</label>
+					<br>
+					<input type="email" id="contact-email" placeholder="Email here" required>
+					<br>
+					<label for="contact-phone" class="standard-label">Telephone:</label>
+					<br>
+					<input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="###-###-####">
+					<br>
+					<label for="message-box" class="standard-label">Message:</label>
+					<br>
+					<textarea id="message-box" maxlength="240" placeholder="Comment or questions here" required></textarea>
+					<br>
+					<br>
+					 <!-- <input type="submit" value="Contact Me"> -->
+					 <button id="contact-form__button" type="submit" form="contact-form" value="submit">Contact Me</button>
+				</form>
+			</section>
+		</main>
+		
+		
+		<footer class="page-footer">
+			<p>Find me on</p>
+			<div class="social-media">
+				<img src="img/github.svg" alt="github logo">
+				<img src="img/twitter_icon.svg" alt="twitter logo">
+				<img src="img/linkedin_icon.svg" alt="linkedin logo">
+			</div>
+		</footer>
+	</body>
+</html>
