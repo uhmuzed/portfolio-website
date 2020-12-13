@@ -15,6 +15,7 @@
 }
 
 body {
+	background-color: #222629;
 	background: 
 		linear-gradient(
 			rgba(0, 0, 0, 0.8),
@@ -69,6 +70,7 @@ span {
 .page-header {
   display: flex;
   width: 100%;
+  padding: 20px;
   border-bottom: 1px solid var(--secondary-color);
 }
 
@@ -85,7 +87,6 @@ span {
 
 .nav-list {
   list-style-type: none;
-  padding-top: 40px;
 }
 
 .nav-list__item {
