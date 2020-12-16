@@ -361,6 +361,7 @@ button:focus,
   .contact-form {
     left: 0;
     text-align: center;
+    padding-top: 50px;
   }
 
   #contact-email,
