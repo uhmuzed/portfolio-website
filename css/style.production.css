@@ -199,6 +199,7 @@ span {
 .grid__item {
   display: inline-block;
   width: 33%;
+  margin: 10px;
 }
 
 /* work page */
